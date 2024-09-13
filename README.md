@@ -1,7 +1,7 @@
 # Movie Recommender System
 This project is a Movie Recommender System built using Streamlit for the web interface, and scikit-learn for feature extraction and similarity computation. The system allows users to select a movie from a dropdown menu and receive recommendations of similar movies along with their posters. The recommendations are based on text features such as movie descriptions (overview) and genres.
 
-Features
+!Features
 Movie Recommendations: The system recommends five movies similar to the one selected by the user.
 Movie Posters: The application fetches and displays posters for the recommended movies using the TMDb API.
 Cosine Similarity: It calculates similarity between movies based on textual data (movie overview and genres) using CountVectorizer and cosine_similarity.
